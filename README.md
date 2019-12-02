@@ -2,7 +2,9 @@
 
 适用于 Windows 下 PC 版钉钉的消息防撤回、程序多开、屏蔽频繁更新补丁。
 
-下载地址：None.
+下载地址：
+**[⚡️点我下载最新版本](https://github.com/mohuihui/DingTalk_Assistant/releases/download/v0.1/DTAssist_v0.1.zip)** |
+[☁备用下载-百度云](https://pan.baidu.com/s/1QknJvYar1xHsk_TnDIfbfQ) 提取码：3x9d
 
 ## 使用方法
 
@@ -24,7 +26,7 @@
 
 5. 如果想恢复原始钉钉功能，则只需点击 "撤销补丁" 按钮即可。
 
-**PS. 因为本程序会修改钉钉的二进制文件，某些杀毒软件可能会报毒，请手动选择放行即可。本程序无毒无害，请放心食用**
+**PS. 因为本程序会修改钉钉的二进制文件，某些杀毒软件可能会报毒，请手动选择放行即可。本程序无毒无害，请放心食用。**
 
 ## 源码编译
 
@@ -41,7 +43,7 @@ git clone https://github.com/mohuihui/DingTalk_Assistant.git ./
 
 **开始编译**
 
-使用 Visual Studio 2005 或更高版本的 Visual Studio 打开 DingTalk_Assistant/src/AntiRecall.sln 工程，然后直接编译即可。
+使用 Visual Studio 2005 或更高版本的 Visual Studio 打开 DingTalk_Assistant/src/AntiRecall.sln 工程，然后快捷键 F7 直接编译即可。
 
 ## 联系我
 

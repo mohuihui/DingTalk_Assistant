@@ -149,6 +149,7 @@
 			/>
 			<Tool
 				Name="VCLinkerTool"
+				OutputFile="$(OutDir)\DTAssist.exe"
 				LinkIncremental="1"
 				GenerateDebugInformation="true"
 				SubSystem="2"
