@@ -13,7 +13,7 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// Chinese (P.R.C.) resources
+// 中文(中华人民共和国) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
 #ifdef _WIN32
@@ -32,15 +32,15 @@ CAPTION "关于"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
-    LTEXT           "钉钉助手 Version 0.1",IDC_STATIC,40,10,119,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) zhenfei.mzf@gmail.com 2019",IDC_STATIC,40,25,188,8
+    LTEXT           "钉钉助手 Version 0.2",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) zhenfei.mzf@gmail.com 2021",IDC_STATIC,40,25,188,8
     DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
 END
 
 IDD_ANTIRECALL_DIALOG DIALOGEX 0, 0, 309, 83
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "钉钉助手（消息防撤回） V0.1"
+CAPTION "钉钉助手（消息防撤回） V0.2"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     DEFPUSHBUTTON   "点我打补丁",IDOK,199,61,50,15
@@ -65,8 +65,8 @@ END
 //
 
 VS_VERSION_INFO VERSIONINFO
- FILEVERSION 1,0,0,1
- PRODUCTVERSION 1,0,0,1
+ FILEVERSION 1,0,0,2
+ PRODUCTVERSION 1,0,0,2
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
  FILEFLAGS 0x1L
@@ -88,7 +88,7 @@ BEGIN
             VALUE "LegalCopyright", "(c) zhenfei.mzf@gmail.com.  All rights reserved."
             VALUE "OriginalFilename", "DTAssist.exe"
             VALUE "ProductName", "钉钉助手"
-            VALUE "ProductVersion", "1.0.0.1"
+            VALUE "ProductVersion", "1.0.0.2"
         END
     END
     BLOCK "VarFileInfo"
@@ -135,12 +135,12 @@ BEGIN
     IDS_ABOUTBOX            "&关于..."
 END
 
-#endif    // Chinese (P.R.C.) resources
+#endif    // 中文(中华人民共和国) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
 /////////////////////////////////////////////////////////////////////////////
-// English (U.S.) resources
+// 英语(美国) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
 #ifdef _WIN32
@@ -192,7 +192,7 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\AntiRecall.ico"
-#endif    // English (U.S.) resources
+#endif    // 英语(美国) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
