@@ -3,12 +3,12 @@
 适用于 Windows 下 PC 版钉钉的消息防撤回、程序多开、屏蔽频繁更新补丁。
 
 下载地址：
-**[⚡️点我下载最新版本](https://github.com/mohuihui/DingTalk_Assistant/releases/download/v0.1/DTAssist_v0.1.zip)** |
-[☁备用下载-百度云](https://pan.baidu.com/s/1QknJvYar1xHsk_TnDIfbfQ) 提取码：3x9d
+**[⚡️点我下载最新版本](https://github.com/mohuihui/DingTalk_Assistant/releases/download/v0.2/DTAssist_v0.2.zip)** |
+[☁备用下载-百度云](https://pan.baidu.com/s/1vXVhCkknbczLh574eMZtxA) 提取码：8888
 
 ## 使用方法
 
-1. 确认操作系统为 Windows XP - Windows 10 （32/64位皆可）。
+1. 确认操作系统为 Windows XP - Windows 11 （32/64位皆可）。
 
 2. 使用本程序前请先关闭钉钉进程，否则会弹出如下提示框并退出本程序。
 
