@@ -5,4 +5,8 @@ src/AntiRecall.suo
 src/AntiRecall/AntiRecall.aps
 src/AntiRecall/AntiRecall.vcproj.D-M70B79BG-0811.Mzf.user
 src/AntiRecall/Release/
+
+src/.vs/*
 src/release/
+src/AntiRecall/AntiRecall.vcxproj.filters
+src/AntiRecall/AntiRecall.vcxproj.user

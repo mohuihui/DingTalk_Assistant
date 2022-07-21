@@ -13,13 +13,11 @@
 #undef APSTUDIO_READONLY_SYMBOLS
 
 /////////////////////////////////////////////////////////////////////////////
-// 中文(中华人民共和国) resources
+// 中文(简体，中国) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
-#ifdef _WIN32
 LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
 #pragma code_page(936)
-#endif //_WIN32
 
 /////////////////////////////////////////////////////////////////////////////
 //
@@ -32,30 +30,32 @@ CAPTION "关于"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
     ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
-    LTEXT           "钉钉助手 Version 0.2",IDC_STATIC,40,10,119,8,SS_NOPREFIX
-    LTEXT           "Copyright (C) zhenfei.mzf@gmail.com 2021",IDC_STATIC,40,25,188,8
+    LTEXT           "钉钉助手 Version 0.3",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) zhenfei.mzf@gmail.com 2021-2022",IDC_STATIC,40,25,188,8
     DEFPUSHBUTTON   "OK",IDOK,178,7,50,16,WS_GROUP
 END
 
-IDD_ANTIRECALL_DIALOG DIALOGEX 0, 0, 309, 83
+IDD_ANTIRECALL_DIALOG DIALOGEX 0, 0, 335, 108
 STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
 EXSTYLE WS_EX_APPWINDOW
-CAPTION "钉钉助手（消息防撤回） V0.2"
+CAPTION "钉钉助手 V0.3.20220721"
 FONT 8, "MS Shell Dlg", 0, 0, 0x1
 BEGIN
-    DEFPUSHBUTTON   "点我打补丁",IDOK,199,61,50,15
-    PUSHBUTTON      "撤销补丁",ID_BTN_REVERT,252,60,50,16
+    DEFPUSHBUTTON   "点我打补丁",IDOK,218,86,50,15
+    PUSHBUTTON      "撤销补丁",ID_BTN_REVERT,278,85,50,16
     LTEXT           "选择应用：",IDC_STATIC_CHOSE_APP,7,6,41,8
     CONTROL         "钉钉",IDC_RADIO_DINGTALK,"Button",BS_AUTORADIOBUTTON,48,6,32,10
-    LTEXT           "应用路径：",IDC_STATIC_APP_PATH,7,24,41,8
-    EDITTEXT        IDC_EDIT_APP_PATH,48,21,225,14,ES_AUTOHSCROLL
-    PUSHBUTTON      "...",IDC_BTN_BROWSE_APP,275,21,27,14
-    LTEXT           "当前版本：",IDC_STATIC_CURRT_VERSION,7,41,41,8
-    LTEXT           "N/A",IDC_STATIC_VERSION_NUM,48,42,66,8
-    LTEXT           "补丁状态：",IDC_STATIC_CURRT_VERSION2,127,41,41,8
-    LTEXT           "N/A",IDC_STATIC_PATCH_STATUS,168,41,134,8
-    LTEXT           "软件主页：",IDC_STATIC_CURRT_VERSION3,7,58,41,8
-    LTEXT           "GitHub/DingTalk_Assistant",IDC_STATIC_GITHUB,48,58,87,8
+    LTEXT           "应用路径：",IDC_STATIC_APP_PATH,7,26,41,8
+    EDITTEXT        IDC_EDIT_APP_PATH,48,23,244,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "...",IDC_BTN_BROWSE_APP,301,23,27,14
+    LTEXT           "当前版本：",IDC_STATIC_CURRT_VERSION,7,47,41,8
+    LTEXT           "N/A",IDC_STATIC_VERSION_NUM,48,48,66,8
+    LTEXT           "补丁状态：",IDC_STATIC_CURRT_VERSION2,174,47,41,8
+    LTEXT           "N/A",IDC_STATIC_PATCH_STATUS,216,47,108,8
+    LTEXT           "软件主页：",IDC_STATIC_CURRT_VERSION3,7,65,41,8
+    LTEXT           "GitHub/DingTalk_Assistant",IDC_STATIC_GITHUB,48,65,87,8
+    LTEXT           "QQ：",IDC_STATIC_CURRT_VERSION4,175,64,20,8
+    LTEXT           "2059233565",IDC_STATIC_QQ,215,64,41,8
 END
 
 
@@ -104,7 +104,7 @@ END
 //
 
 #ifdef APSTUDIO_INVOKED
-GUIDELINES DESIGNINFO 
+GUIDELINES DESIGNINFO
 BEGIN
     IDD_ABOUTBOX, DIALOG
     BEGIN
@@ -117,9 +117,9 @@ BEGIN
     IDD_ANTIRECALL_DIALOG, DIALOG
     BEGIN
         LEFTMARGIN, 7
-        RIGHTMARGIN, 302
+        RIGHTMARGIN, 328
         TOPMARGIN, 6
-        BOTTOMMARGIN, 76
+        BOTTOMMARGIN, 101
     END
 END
 #endif    // APSTUDIO_INVOKED
@@ -127,15 +127,31 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
+// AFX_DIALOG_LAYOUT
+//
+
+IDD_ANTIRECALL_DIALOG AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+IDD_ABOUTBOX AFX_DIALOG_LAYOUT
+BEGIN
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
 // String Table
 //
 
-STRINGTABLE 
+STRINGTABLE
 BEGIN
     IDS_ABOUTBOX            "&关于..."
 END
 
-#endif    // 中文(中华人民共和国) resources
+#endif    // 中文(简体，中国) resources
 /////////////////////////////////////////////////////////////////////////////
 
 
@@ -143,10 +159,8 @@ END
 // 英语(美国) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
-#ifdef _WIN32
 LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -192,6 +206,7 @@ END
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
 IDR_MAINFRAME           ICON                    "res\\AntiRecall.ico"
+
 #endif    // 英语(美国) resources
 /////////////////////////////////////////////////////////////////////////////
 

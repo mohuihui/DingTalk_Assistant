@@ -59,7 +59,6 @@ public:
 	CString mCurrentVersion;
 
 	CString mMainFramePath;
-	CString mNewMainFramePath;
 	CString mPatchStatus;
 	afx_msg void OnBnClickedBtnBrowseApp();
 	afx_msg void OnBnClickedOk();
@@ -67,7 +66,8 @@ public:
 	afx_msg void OnStnClickedStaticGithub();
 
 private:
-	CRect m_Rect;
+	CRect m_GithubRect;
+	CRect m_QQRect;
 	CFont* m_cfNtr;
 	CFont m_cfUL;
 	LOGFONT m_lfNtr, m_lfUL;
@@ -77,4 +77,8 @@ public:
 	afx_msg void OnLButtonUp(UINT nFlags, CPoint point);
 	afx_msg void OnMouseMove(UINT nFlags, CPoint point);
 	afx_msg HBRUSH OnCtlColor(CDC* pDC, CWnd* pWnd, UINT nCtlColor);
+	afx_msg void OnStnClickedStaticQq();
+
+private:
+	void CopyQQToClipboard();
 };
