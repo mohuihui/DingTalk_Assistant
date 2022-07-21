@@ -3,8 +3,8 @@
 适用于 Windows 下 PC 版钉钉的消息防撤回、程序多开、屏蔽频繁更新补丁。
 
 下载地址：
-**[⚡️点我下载最新版本](https://github.com/mohuihui/DingTalk_Assistant/releases/download/v0.2/DTAssist_v0.2.zip)** |
-[☁备用下载-百度云](https://pan.baidu.com/s/1vXVhCkknbczLh574eMZtxA) 提取码：8888
+**[⚡️点我下载最新版本](https://github.com/mohuihui/DingTalk_Assistant/releases/download/v0.3/DTAssist_v0.3.20220721.zip)** |
+[☁备用下载-百度云](https://pan.baidu.com/s/10asYIfCzN8yDwNqw-uBa5A?pwd=jaef) 提取码：jaef
 
 ## 使用方法
 
@@ -43,7 +43,7 @@ git clone https://github.com/mohuihui/DingTalk_Assistant.git ./
 
 **开始编译**
 
-使用 Visual Studio 2005 或更高版本的 Visual Studio 打开 DingTalk_Assistant/src/AntiRecall.sln 工程，然后快捷键 F7 直接编译即可。
+使用 Visual Studio 2017 或更高版本的 Visual Studio 打开 DingTalk_Assistant/src/AntiRecall.sln 工程，然后快捷键 F7 直接编译即可。
 
 ## 联系我
 
