@@ -49,6 +49,8 @@ git clone https://github.com/mohuihui/DingTalk_Assistant.git ./
 
 QQ：2059233565
 
+QQ群：473105631
+
 邮箱：zhenfei.mzf@gmail.com
 
 微博：https://weibo.com/minzhenfei
